@@ -1,0 +1,5 @@
+-r requirements.txt
+
+# Development and quality checks
+pytest>=8,<9
+ruff>=0.11,<1

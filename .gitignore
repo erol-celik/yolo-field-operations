@@ -1,0 +1,37 @@
+# Python bytecode and environments
+__pycache__/
+*.py[cod]
+*.pyd
+.venv/
+venv/
+env/
+
+# Python packaging and test/lint output
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Datasets, model weights, and generated inference output
+/data/raw/
+/data/processed/
+/datasets/
+/weights/
+/runs/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Logs and experiment tracking
+*.log
+wandb/

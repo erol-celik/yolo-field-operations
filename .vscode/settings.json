@@ -1,0 +1,7 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "chat.plugins.enabled": true,
+  "chat.plugins.marketplaces": [
+    "obra/superpowers-marketplace"
+  ]
+}
